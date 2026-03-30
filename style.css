@@ -59,11 +59,16 @@ nav {
 }
 .nav-links a {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: .7rem; letter-spacing: .1em; color: var(--muted);
-    text-decoration: none; text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: color .2s;
 }
-.nav-links a:hover { color: var(--green); }
+.nav-links a:hover {
+    color: var(--green);
+}
 
 /* ── HERO ── */
 #hero {
@@ -129,8 +134,11 @@ h1 {
 h1 em { font-style: italic; color: var(--green); }
 
 .hero-sub {
-    font-size: 1.05rem; color: var(--muted); max-width: 480px;
-    line-height: 1.7; margin-bottom: 2rem;
+    font-size: 1.05rem;
+    color: white;
+    max-width: 480px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
     text-shadow: 0 1px 12px rgba(0,0,0,.95), 0 0 30px rgba(0,0,0,.8);
 }
 
@@ -411,11 +419,13 @@ footer {
 }
 .footer-copy {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: .62rem; color: var(--muted);
+    font-size: .62rem;
+    color: white;
 }
 .coords {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: .62rem; color: var(--muted);
+    font-size: .62rem;
+    color: white;
 }
 
 /* ── RESPONSIVE ── */
