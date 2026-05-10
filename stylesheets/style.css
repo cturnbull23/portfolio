@@ -97,10 +97,10 @@ nav {
 .slide.active { opacity: 1; }
 
 /* Placeholder slides with GIS-inspired gradient backgrounds */
-.slide-1 { background-image: url('../images/provo_ut.jpeg'); }
-.slide-2 { background-image: url('../images/reno_nv.jpeg'); }
-.slide-3 { background-image: url('../images/snowy_mountain.jpeg'); }
-.slide-4 { background-image: url('../images/sunset1.jpeg'); }
+.slide-1 { background-image: url('images/provo_ut.jpeg'); }
+.slide-2 { background-image: url('images/reno_nv.jpeg'); }
+.slide-3 { background-image: url('images/snowy_mountain.jpeg'); }
+.slide-4 { background-image: url('images/sunset1.jpeg'); }
 
 /* Contour overlay on hero */
 .slides-wrap::after {
