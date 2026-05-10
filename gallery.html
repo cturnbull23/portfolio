@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aerial Photography Gallery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylesheets/gallery.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">Aerial<span>Photography</span> // Gallery</div>
+        </header>
+        <div class="app">
+            <aside>
+                <div class="sidebar-label">States // Filter</div>
+                <button class="state-btn active" data-state="all">All States<span class="count" id="count-all">0</span></button>
+                <!-- dynamically populated -->
+                <div id="state-list"></div>
+            </aside>
+
+            <main>
+                <div class="toolbar">
+                    <div class="current-state">
+                        <small id="label-above">Showing all</small>
+                        <span id="current-label">All states</span>
+                    </div>
+                    <div class="search-wrap">
+                        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <circle cx="11" cy="11" r="8"/><path d="M21 211-4.35-4.35"/>
+                        </svg>
+                        <input type="text" id="search-input" placeholder="search photos...">
+                    </div>
+                </div>
+
+                <div class="gallery" id="gallery"></div>
+            </main>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <div class="lb-inner">
+                <button class="lb-close" id="lb-close">[ ESC ] CLOSE</button>
+                <img id="lb-img" src="" alt="">
+                <div class="lb-caption">
+                    <div class="lb-title" id="lb-title"></div>
+                    <div class="lb-state" id="lb-state"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/photos.js" type="text/javascript"></script>
+    </body>
+</html>
