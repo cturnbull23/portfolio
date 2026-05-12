@@ -1,5 +1,7 @@
 const PHOTOS = [
-    { id:1,  title: "Columbus, Ohio",                                         state: "Ohio",               tags: ["City", "Columbus", "Ohio", "2024", "Cessna", "Chancellor"],                  src: "./images/gallery/webp/IMG_2357.webp" },
+    { id:1,  title: "Phoenix-Mesa Gateway Airport, Arizona",                  state: "Arizona",            tags: ["Airport", "Arizona", "2024", "Cessna 414A Chancellor"],                      src: "./images/gallery/webp/IMG_0061.webp" },
+    { id:2,  title: "Colorado River Indian Reservation, Parker, Arizona",     state: "Arizona",            tags: ["Colorado River", "Arizona", "2024", "Cessna 335"],                           src: "./images/gallery/webp/IMG_0108.webp" },
+    { id:1,  title: "Columbus, Ohio",                                         state: "Ohio",               tags: ["City", "Columbus", "Ohio", "2024", "Cessna 414A Chancellor"],                src: "./images/gallery/webp/IMG_2357.webp" },
     { id:2,  title: "Kennedy Space Center VAB, Cape Canaveral, Florida",      state: "Florida",            tags: ["Cape Canaveral", "KSC", "VAB","2025", "Cessna", "Conquest"],                 src: "./images/gallery/webp/IMG_5720.webp" },
     { id:3,  title: "Epcot, Disney World, Florida",                           state: "Florida",            tags: ["Disney World", "EPCOT", "2025", "Cessna", "Conquest"],                       src: "./images/gallery/webp/IMG_5769.webp" },
     { id:4,  title: "Miami, Florida",                                         state: "Florida",            tags: ["City", "Miami", "Florida", "2025", "Cessna", "Conquest"],                    src: "./images/gallery/webp/IMG_5742.webp" },
