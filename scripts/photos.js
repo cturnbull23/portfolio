@@ -1,4 +1,5 @@
 const PHOTOS = [
+    { id:1, title:  "Columbus, Ohio",                                   state: "Ohio",               tags: ["City", "Columbus", "Ohio", "Cessna", "Chancellor"],                          src: "./images/gallery/webp/IMG_2357.webp"},
     { id:1,  title: "Millington, TN Airport",                           state: "Tennessee",          tags: ["Airport", "Tennessee", "2026"],                                              src: "./images/gallery/webp/IMG_0606.webp" },
     { id:2,  title: "Mississippi River - New Orleans",                  state: "Louisiana",          tags: ["River","Mississippi River", "New Orleans", "Louisiana", "2026"],             src: "./images/gallery/webp/IMG_0580.webp" },
     { id:3,  title: "Amarillo International Airport",                   state: "Texas",              tags: ["Airport","Texas","2026"],                                                    src: "./images/gallery/webp/IMG_0535.webp" },
