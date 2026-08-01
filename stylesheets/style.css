@@ -274,14 +274,6 @@ hr.divider {
 }
 .project-card:hover .project-thumb-bg { transform: scale(1.05); }
 
-/* Topo map thumbnails */
-.thumb-1 { background: linear-gradient(135deg, #0f2a1a 0%, #1a4a2e 40%, #0d3d24 100%); }
-.thumb-2 { background: linear-gradient(135deg, #0d1b2a 0%, #1e3a5f 50%, #0a2540 100%); }
-.thumb-3 { background: linear-gradient(135deg, #1a1a0d 0%, #3a3a1a 50%, #2a2a0d 100%); }
-.thumb-4 { background: linear-gradient(135deg, #1a0d1a 0%, #3a1a3a 50%, #2a0d2a 100%); }
-.thumb-5 { background: linear-gradient(135deg, #0d1a1a 0%, #1a3a3a 50%, #0d2a2a 100%); }
-.thumb-6 { background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%); }
-
 .thumb-icon {
     position: relative; z-index: 1;
     color: rgba(255,255,255,.15); font-size: 3rem;
