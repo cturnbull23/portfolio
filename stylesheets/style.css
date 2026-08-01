@@ -67,7 +67,7 @@ nav {
     transition: color .2s;
 }
 .nav-links a:hover {
-    color: white;
+    color: var(--green);
 }
 
 /* ── HERO ── */
